@@ -1,22 +1,20 @@
 #!/usr/bin/python3
 """
-    Module for user class
+User class
 """
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """
-    Class that represents a user
+    """User class inherits from BaseModel
 
-    Attributes;
-    email: string - empty string for email
-    password: string - empty string for password
-    first_name: string - empty string for first name
-    last_name: string - empty string for last name
+    Attributes:
+        email (str): Public class attribute for User's email
+        password (str): Public class attribute for User's password
+        first_name (str): Public class attribute for User's first name
+        last_name (str): Public class attribute for User's last name
     """
-
-    email = ""
-    password = ""
-    first_name = ""
-    last_name = ""
+    email = ''
+    password = ''
+    first_name = ''
+    last_name = ''
